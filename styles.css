@@ -70,10 +70,11 @@ nav a {
     align-items: center;
 }
 
-.footer-logo {
-    margin-right: 10px;
+.footer-text {
+    text-align: left; /* Align text to the left */
 }
 
-.footer-text {
-    text-align: right;
+.footer-logos {
+    display: flex;
+    align-items: center;
 }
