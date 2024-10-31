@@ -12,6 +12,10 @@ body {
     background-color: #f8f9fa;
 }
 
+h1 {
+    margin: 0;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -27,6 +31,6 @@ nav a {
     color: #007bff;
 }
 
-section {
+main {
     padding: 20px;
 }
