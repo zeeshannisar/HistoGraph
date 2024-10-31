@@ -4,16 +4,24 @@ body {
     padding: 0;
 }
 
+header {
+    background-color: #f8f9fa; /* Keep the background color consistent */
+}
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #f8f9fa;
+    padding: 0 40px; /* Add horizontal padding to the container */
 }
 
 h1 {
     margin: 0;
+    flex-grow: 1; /* Allow title to take available space */
+}
+
+nav {
+    margin-left: 20px; /* Add some space between title and navigation */
 }
 
 nav ul {
@@ -28,7 +36,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #007bff;
+    color: #007bff; /* Change to desired color */
 }
 
 .main-container {
@@ -60,14 +68,9 @@ nav a {
 .footer-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* Align items to the ends */
     max-width: 800px; /* Same max width as main content */
     margin: 0 auto; /* Center the content */
-}
-
-.footer-logos {
-    display: flex;
-    align-items: center;
 }
 
 .footer-text {
