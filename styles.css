@@ -34,3 +34,13 @@ nav a {
 main {
     padding: 20px;
 }
+
+.partner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.partner img {
+    margin-right: 15px;
+}
