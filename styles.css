@@ -81,3 +81,27 @@ nav a {
     display: flex;
     align-items: center;
 }
+
+/* New styles for the image and updates section */
+.image-center {
+    text-align: center; /* Center the content */
+    margin: 20px 0; /* Add space above and below the image */
+}
+
+.project-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.updates-section {
+    margin-top: 40px; /* Add space above the updates section */
+}
+
+.updates-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+}
+
+.updates-list li {
+    margin: 5px 0; /* Space between list items */
+}
