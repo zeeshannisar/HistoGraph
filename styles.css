@@ -51,11 +51,19 @@ nav a {
     margin-bottom: 20px;
 }
 
-.partner img {
+/*.partner img {
     padding: 20px;
     max-width: 800px; /* Set a max width for main content */
     margin-right: 15px;
+}*/
+
+.partner img {
+    max-width: 100px; /* Set the maximum width */
+    max-height: 100px; /* Set the maximum height */
+    object-fit: contain; /* Preserve aspect ratio */
+    margin-right: 15px; /* Keep the existing margin */
 }
+
 
 .footer {
     position: fixed;
@@ -77,7 +85,8 @@ nav a {
 
 .footer-text {
     text-align: left; /* Align text to the left */
-}
+}           <p>DaSciM team, led by Prof. Michalis Vazirgiannis, develops ML and DL approaches to solve real-world problems, with focus on graph analysis approaches and text mining. The group has a track record of successful academic and industrial collaborations attracting funding from partners such as LVMH, BNP, AIRBUS, Google, Microsoft, etc. as well the French government. J. Lutzeyer plays an important role in the contributions of the DaScIM team to the state-of-the-art in graph representation learning. HistoGraph will draw on each partner’s expertise in DL, image analysis, graph mining, and
+
 
 .footer-logos {
     display: flex;
