@@ -58,8 +58,8 @@ nav a {
 }*/
 
 .partner img {
-    max-width: 100px; /* Set the maximum width */
-    max-height: 100px; /* Set the maximum height */
+    max-width: 10px; /* Set the maximum width */
+    max-height: 10px; /* Set the maximum height */
     object-fit: contain; /* Preserve aspect ratio */
     margin-right: 15px; /* Keep the existing margin */
 }
