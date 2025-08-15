@@ -84,13 +84,13 @@ nav a {
 .footer-logos {
     display: flex;
     align-items: center;
-    padding-right: 14px;
 }
 
 .footer-logo {
     max-width: 70px; /* Adjust the size for footer logos */
     max-height: 70px;
     object-fit: contain; /* Maintain aspect ratio */
+    padding-right: 20px;
 }
 
 /* New styles for the image and updates section */
