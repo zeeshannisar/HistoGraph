@@ -84,6 +84,7 @@ nav a {
 .footer-logos {
     display: flex;
     align-items: center;
+    padding-right: 14px;
 }
 
 .footer-logo {
